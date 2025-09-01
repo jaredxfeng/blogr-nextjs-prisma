@@ -115,8 +115,9 @@ const Header: React.FC = () => {
         <Link href="/" className="bold" data-active={isActive('/')}>
           Feed
         </Link>
-        <Link href="/drafts">
-          <a data-active={isActive('/drafts')}>My drafts</a>
+        <a>&nbsp;</a>
+        <Link href="/drafts" data-active={isActive('/drafts')}>
+          My drafts
         </Link>
         <style jsx>{`
           .bold {
